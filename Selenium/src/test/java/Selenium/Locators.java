@@ -33,5 +33,6 @@ public class Locators {
 		driver.findElement(By.cssSelector("input[placeholder='Phone Number']")).sendKeys("8884916790");
 		driver.findElement(By.cssSelector("//button[@class='reset-pwd-btn']")).click();
 		//driver.quit();
+	
 	}
 }

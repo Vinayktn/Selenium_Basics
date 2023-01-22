@@ -14,5 +14,6 @@ public class Class1
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-  	}
+  	
+	}
 }
