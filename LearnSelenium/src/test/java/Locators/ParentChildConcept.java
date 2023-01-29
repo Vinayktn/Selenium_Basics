@@ -12,5 +12,6 @@ public class ParentChildConcept {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
  		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
+ 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
 	}
 }
