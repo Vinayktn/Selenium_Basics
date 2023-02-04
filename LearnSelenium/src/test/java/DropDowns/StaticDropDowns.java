@@ -13,8 +13,10 @@ public class StaticDropDowns
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.manage().window().maximize();
+		
 		WebElement staticdropdown = driver.findElement(By.xpath("//select[starts-with(@name,'ctl00$mainContent$DropDownListCurrency')]"));
 		Select dropdown = new Select(staticdropdown);
+		
 		dropdown.selectByIndex(1);
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		dropdown.selectByValue("USD");
