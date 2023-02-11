@@ -26,6 +26,7 @@ public class Sreenshot {
 		File scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scr, new File( "C:\\Users\\VK075855\\OneDrive - Cerner Corporation\\Desktop\\Learning\\screenshot.png"));
 
+		driver.quit();
 
 	}
 }

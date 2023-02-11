@@ -27,6 +27,7 @@ public class HandlingSSL_Certificate
 		//Passing the chromeoptions object into chromedriver so that we control the behavior of the browser
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.amazon.in/");
+		driver.quit();
 
 	}
 }

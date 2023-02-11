@@ -20,5 +20,8 @@ public class Actions_Practice
 
 		WebElement move1 = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 		a.moveToElement(move1).click().keyDown(Keys.SHIFT).sendKeys("vinay").doubleClick().contextClick().build().perform();
+		
+		driver.quit();
+
 	}
 }

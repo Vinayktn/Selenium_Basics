@@ -19,7 +19,7 @@ import org.testng.asserts.SoftAssert;
 
 public class Handling_BrokenLinks 
 {
- 	public static void main(String[] args) throws MalformedURLException, IOException 
+	public static void main(String[] args) throws MalformedURLException, IOException 
 	{
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
@@ -44,5 +44,7 @@ public class Handling_BrokenLinks
 			s.assertTrue(respcode<400, "This link with text " + link.getText()+ "is broken with respense code " + respcode);
 		}
 		s.assertAll();
+		driver.quit();
+
 	}
 }
