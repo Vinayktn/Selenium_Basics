@@ -32,6 +32,5 @@ public class Example_2
 		//compare original list and sorted list
 		Assert.assertEquals(originallist, sortedlist);
 		
-		driver.quit();
 	}
 }
