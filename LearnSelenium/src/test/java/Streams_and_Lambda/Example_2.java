@@ -9,11 +9,39 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Example_2 
 {
-	public static void main(String[] args) 
-	{
+	//	public static void main(String[] args) 
+	//	{
+	//		WebDriverManager.chromedriver().setup();
+	//		WebDriver driver = new ChromeDriver();
+	//		driver.manage().window().maximize();
+	//		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
+	//
+	//		driver.findElement(By.xpath("//thead/tr/th[1]")).click();
+	//
+	//		//capture all the web elements into 1 list
+	//		List<WebElement> elementslist = driver.findElements(By.xpath("//tr/td[1]"));
+	//
+	//		//capture the text of all the web elements into 1 list
+	//		List<String> originallist =	elementslist.stream().map(s->s.getText()).collect(Collectors.toList());
+	//
+	//		//sort the original list
+	//		List<String> sortedlist = originallist.stream().sorted().collect(Collectors.toList());
+	//
+	//		//compare original list and sorted list
+	//		Assert.assertEquals(originallist, sortedlist);
+	//		
+	//	}
+
+	@Test
+	public void demo() {
+
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
@@ -31,6 +59,6 @@ public class Example_2
 
 		//compare original list and sorted list
 		Assert.assertEquals(originallist, sortedlist);
-		
+		driver.quit();
 	}
 }
