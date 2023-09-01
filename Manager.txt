@@ -1,0 +1,79 @@
+Introduction:
+Myself Vinay I am into software testing industry for about more than 4.5 years now and I started my career as a manual test engineer and slowly i started acquiring the automation skills and now I am working on both manual and automation testing in my current company.
+I manage both manual and automation testing tasks here
+
+Coming to manual testing tasks:
+I have good knowledge of manual testing concepts like STLC, Defect life cycle, agile process etc
+We are curently following Agile methedology here and I am actively involved in all the different Agile ceremony's like Sprint planning, Sprint review, Sprint retrospective and daily scrum meetings as well.
+I am aware of the ci/cd process.
+
+Coming to automation testing tasks:
+For automation we are using java as a programming language and selenium tool we are using here
+I am aware of the different locators technique and also responsible for the creation and maintenance of the automation framework
+coming to our framework 
+for log generation we are using log4j version 2.0 
+as a unit testing frameowrk we are using TestNG
+we are using the page object model design pattren were we create seperate classes for each web page which also contains the actions that we perform on that web page
+and we also maintain seperate utility classes where we maintain all the reusable functions which will help in in our framework building
+And we are using maven for build management tool
+we are using jenkins as a runner
+
+Daily activities:
+Checking email updates
+checking for any priority tasks are assigned
+checking if any retesting is assigned
+checking the executions reports and planning for the RCA for failed test cases
+attanding daily scrum
+and then following the tasks assigned in the scrum meeting
+Following up on the reported issues
+Also doing one round of exploratory testing manually on the application daily for atleast half an hour and report if any defects are there
+Triggereing the regression suite if any new functionality is added
+and then work on my automation tasks like automating any test cases
+Attending meetings
+continous learning - upskilling
+
+Roles and Responsibilities:
+Understanding the requirements
+deriving test scenarios
+documenting test cases
+updating tracebility matix
+collecting and preperation of test data
+executing the test cases
+reporting the defects and tracking the defects
+modifying the test cases
+selecting the test cases for regression suite etc..
+I am also involved in the test planning activities and meetings where we discuss the roles and responsisbilities, entry and exit criteria, resource allocation, time stamp, methodology we have to follow and things like this
+
+Domain knowledge:
+I have worked on ERP, broadcasting and healthcare domain in my career but majorly from last 4 years i am working on healthcare domain itself.
+Here in my current company I am working on EHR - Electronic Health Records project which is a fundamental part of our healthcare IT efforts. 
+It involves developing and maintaining the central software system that stores and manages patient medical records, treatment plans, clinical notes, and other essential healthcare information. 
+This system is crucial for healthcare providers as it enables them to efficiently access, update, and share patient data, leading to improved patient care coordination, streamlined workflows, and better-informed medical decisions. 
+Our team plays a pivotal role in ensuring the reliability, security, and functionality of this Core-EHR system to support the delivery of high-quality healthcare services.
+
+Linux knowledge:
+Coming to linux:
+I had worked on linux when i was working on compatability testing in my 1st company and have a good handson the basic and important linux commands like
+cat command
+ls command
+pwd command
+grep command
+fgrep command
+egrep command
+rm, -r command
+directory commands like: mkdir, move commands like mv etc and i am constantly working on linux whenevr time permits as its open source and light weight i feel this may be very handy skill for a test engineer to add to his/her skillset
+
+BDD testing knowledge:
+I know the workflow of how BDD works and what is the difference between BDD and traditional approach how BDD may be benificial and for the same reason company are moving towards the BDD approach to bridge the gap between the bussiness teams and the techincal team and I am aware of the Gherkins language and different command like GIVEN, WHEN, AND, THEN
+I am aware of different phases involved in BDD approach like 
+Discovery phase
+Firmualtion Phase and
+Automation phase
+
+And as of now I have not practically worked on cucmber but i have started a course online to learn and practically implement it. I would be able to desgin a framework in cuckmber from scratch as soon as i learn and i hope it would take me around 1 month to learn the concepts as i am a quick learner.
+
+Git commands and process:
+
+
+SQL:
+basic commands, joins, difference between joins and basic query's
